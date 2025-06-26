@@ -244,12 +244,16 @@ section .title span::after {
   left: 50%;
   transform: translateX(-50%);
 }
-
 .about .about-details .left {
   width: 45%;
 }
 
-
+.about .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
 
 .about-details .right {
   width: 50%;
